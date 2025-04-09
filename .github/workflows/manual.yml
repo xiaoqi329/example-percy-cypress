@@ -21,7 +21,11 @@ jobs:
         run: |
           echo "Running shell commands..."
           # Add your shell commands here
-          ls -la
+          git clone https://github.com/xiaoqi329/example-percy-cypress.git
           echo "Current directory:"
           pwd
+          cd example-percy-cypress
+          npm install
+          git checkout -b tutorial-example
+          npm run test
           # Add more commands as needed
