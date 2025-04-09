@@ -20,5 +20,5 @@ jobs:
         with:
           custom-command: "npm test"
         env:
-          PERCY_TOKEN: "auto_19f8b142c5683b872df8df9b5bdebb472a127865bd775b335b5a2e18b5e0fa42"
+          PERCY_TOKEN: "web_573c19fded9d82d4d6286fea87e428f17bb65dc60db62284ad36d9de7aae702d"
 
